@@ -1,0 +1,21 @@
+{
+  "name": "web-dev-snippets",
+  "version": "0.1.0",
+  "description": "A series of personal snippets and utilities used for developing websites.",
+  "author": "Hawk Ticehurst",
+  "license": "MIT",
+  "homepage": "https://github.com/hawkticehurst/web-dev-snippets#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawkticehurst/web-dev-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hawkticehurst/web-dev-snippets/issues"
+  },
+  "scripts": {
+    "fmt": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
