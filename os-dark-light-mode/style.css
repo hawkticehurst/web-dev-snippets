@@ -1,0 +1,19 @@
+/* Default light mode color scheme */
+:root {
+  --color-foreground: #1e1e1e;
+  --color-background: #f4f4f4;
+}
+
+/* Override light mode when OS is set to dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-foreground: #f4f4f4;
+    --color-background: #1e1e1e;
+  }
+}
+
+body {
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+  font-family: Arial, Helvetica, sans-serif;
+}
